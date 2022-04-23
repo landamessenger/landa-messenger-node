@@ -12,6 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/landamessenger/landa-chat-node.git"
   },
+  "bin": {
+    "@your_npm_username/create-project": "bin/create-project",
+    "landa-messenger": "index.js"
+  },
   "author": "Efra Espada",
   "license": "ISC",
   "bugs": {
@@ -19,6 +23,7 @@
   },
   "homepage": "https://github.com/landamessenger/landa-messenger-node#readme",
   "dependencies": {
+    "args": "^5.0.1",
     "node-fetch": "^3.2.3"
   }
 }

@@ -2,4 +2,4 @@
 
 Landa Messenger JavaScript API for sending messages to chats.
 
-Check the documentation in [https://landamessenger.com/integration](Landa Messenger Integrations).
+Check the documentation in [Landa Messenger Integration](https://landamessenger.com/integration).
