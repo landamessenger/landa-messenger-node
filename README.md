@@ -1,1 +1,1 @@
-# landa-chat-node
+# landa-messenger-node

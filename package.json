@@ -1,0 +1,24 @@
+{
+  "name": "landa-messenger-node",
+  "version": "1.0.0",
+  "description": "Landa Messenger Integration",
+  "main": "index.js",
+  "scripts": {
+    "sample": "cd sample && node usage.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landamessenger/landa-chat-node.git"
+  },
+  "author": "Efra Espada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landamessenger/landa-messenger-node/issues"
+  },
+  "homepage": "https://github.com/landamessenger/landa-messenger-node#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.3"
+  }
+}
