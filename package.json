@@ -1,7 +1,7 @@
 {
   "name": "landa-messenger-node",
   "version": "1.0.0",
-  "description": "Landa Messenger Integration",
+  "description": "Landa Messenger Node API",
   "main": "index.js",
   "scripts": {
     "sample": "cd sample && node usage.js",

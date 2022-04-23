@@ -1,25 +1,10 @@
 import fetch from 'node-fetch';
 
-export default function LandaChatNode(config) {
+export default function LandaMessengerNode() {
 
     const entry_point = 'https://landamessenger.com/api/v1/integrations/sendBotMessage';
-    let _object = this;
-    this.config = config;
 
     this.sendMessage = async (params) => {
-        if (_object.config && _object.config.debug) {
-            console.log(`Sending message to Landa Messenger`);
-            console.log(`chat_id: ${params.chat_id}`);
-            console.log(`api_key: ${params.api_key}`);
-            console.log(`title: ${params.title}`);
-            console.log(`body: ${params.body}`);
-            console.log(`url: ${params.url}`);
-            console.log(`image: ${params.image}`);
-            console.log(`image_elevation: ${params.image_elevation}`);
-            console.log(`background_color: ${params.background_color}`);
-            console.log(`text_color: ${params.text_color}`);
-        }
-
         /**
          * Mandatory parameters
          */
