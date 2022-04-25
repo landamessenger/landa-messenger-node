@@ -1,7 +1,8 @@
 
-import LandaMessengerNode from "../index.js";
+import LandaMessengerAPI from "../index.js";
 
-new LandaMessengerNode().sendMessage({
+const api = new LandaMessengerAPI();
+api.chat.send({
     chat_id: '6defec5ad5a3f7955788eaceaae617c81c54a24be135724cc708af4a168356ae',
     api_key: 'b1209566c845136b70a12db9b562f0a6658e3bb9814302a23a73ef2be463cbea',
     title: 'Test Node Title',
