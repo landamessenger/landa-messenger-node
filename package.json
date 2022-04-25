@@ -1,6 +1,6 @@
 {
-  "name": "landa-messenger-api",
-  "version": "1.0.0",
+  "name": "@landamessenger/landa-messenger-api",
+  "version": "1.0.1",
   "description": "Landa Messenger Node API",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "landa-messenger-api": "index.js"
   },
   "author": "Efra Espada",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/landamessenger/landa-messenger-node/issues"
   },
@@ -24,5 +24,11 @@
   "dependencies": {
     "args": "^5.0.1",
     "node-fetch": "^3.2.3"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "landa",
+    "landamessenger",
+    "api"
+  ]
 }

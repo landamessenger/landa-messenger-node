@@ -5,7 +5,7 @@ Landa Messenger JavaScript API for sending messages to chats.
 Check the documentation in [Landa Messenger - API](https://landamessenger.com/api).
 
 ```js
-import LandaMessengerAPI from "landa-messenger-api";
+import LandaMessengerAPI from "@landamessenger/landa-messenger-api";
 
 const api = new LandaMessengerAPI();
 api.chat.send({
