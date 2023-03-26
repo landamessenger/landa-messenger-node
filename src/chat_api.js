@@ -9,8 +9,8 @@ export default function ChatApi() {
         /**
          * Mandatory parameters
          */
-        if (params.chat_id === undefined || typeof params.chat_id !== 'string' || params.chat_id.length === 0) {
-            console.error('not valid chat_id')
+        if (params.id === undefined || typeof params.id !== 'string' || params.id.length === 0) {
+            console.error('not valid id')
             return
         } else if (params.api_key === undefined || typeof params.api_key !== 'string' || params.api_key.length === 0) {
             console.error('not valid api_key')

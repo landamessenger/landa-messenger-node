@@ -3,8 +3,8 @@ import LandaMessengerAPI from "../index.js";
 
 const api = new LandaMessengerAPI();
 api.chat.send({
-    chat_id: '6defec5ad5a3f7955788eaceaae617c81c54a24be135724cc708af4a168356ae',
-    api_key: 'b1209566c845136b70a12db9b562f0a6658e3bb9814302a23a73ef2be463cbea',
+    id: '1cdd952f044d54cbaa8b6d582640348d5647bfc4babf46709c549fddbbe8c630',
+    api_key: 'c9fe244f8bf09760e959149921e845d6bf1473e6916e45db214d01df8d4ce95a',
     title: 'Test Node Title',
     body: 'Test Node Body',
     url: 'https://github.com/landamessenger/landa-messenger-node',

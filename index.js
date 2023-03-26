@@ -8,8 +8,8 @@ export default function LandaMessengerAPI() {
 }
 
 args
-    .option('chat_id', 'Chat ID', '', true)
-    .option('api_key', 'Chat access key', '', true,)
+    .option('id', 'Integration ID', '', true)
+    .option('api_key', 'Integration access key', '', true,)
     .option('title', 'Message\'s title', '', true,)
     .option('body', 'Message\'s body', '', true)
     .option('url', 'Url to open when pressing a message', '', false)
@@ -20,7 +20,7 @@ args
     .command('chat-send', 'Send message', (name, sub, options) => {
         const api = new LandaMessengerAPI();
         api.chat.send({
-            chat_id: options.chatId,
+            id: options.id,
             api_key: options.apiKey,
             title: options.title,
             body: options.body,

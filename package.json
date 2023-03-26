@@ -1,6 +1,6 @@
 {
   "name": "@landamessenger/landa-messenger-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Landa Messenger Node API",
   "main": "index.js",
   "scripts": {
